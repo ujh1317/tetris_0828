@@ -2,6 +2,7 @@
     <head>
         <title>Tetris</title>
         <script  src="https://code.jquery.com/jquery-3.6.0.js"  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="  crossorigin="anonymous"></script>
+        <script src="js/script.js" charset="utf-8"></script>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -9,7 +10,24 @@
             <div style="height:550px; border-left:1px solid #98a3f7; border-top:1px solid #98a3f7; border-right:1px solid #98a3f7; border-bottom:1px solid #98a3f7; float:left; padding:0px">
                 <!-- 가로 x 세로 : 12 x 22 -->
                 <table cellspacing=0 cellpadding=0 style="width:300px" align=center>
-                    
-        <script src="js/script.js" charset="utf-8"></script>
+                <script>
+                    makeBlock(12, 22);
+                </script>
+                </table>
+            </div>
+
+            <div style="text-align:center; font-weight:bold; font-size:26px">
+                <div style="font-size:12px">(위 화살표: 모양 변경)</div>                 
+                <div>
+                    ↑ <br>
+                    ←↓→
+                </div>
+                <div style="font-size:12px; margin-top:13px">스페이스바 (내리기)</div>
+            </div>
+
+        </div>    
+        
+
+        
     </body>
 </html>
